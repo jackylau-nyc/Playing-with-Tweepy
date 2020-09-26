@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS USER (
   userID VARCHAR(20) NOT NULL, 
   screenName VARCHAR(20) NOT NULL,
   verified BOOLEAN NOT NULL, 
-  realName VARCHAR(30) NOT NULL, 
+  realName VARCHAR(30), 
   userUrl VARCHAR(100) NOT NULL, 
   followerCount INT NOT NULL, 
   statusCount INT NOT NULL, 
